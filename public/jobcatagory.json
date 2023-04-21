@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "categoryLogoImageLink": "../assets/Icons/accounts 1.png",
+      "categoryName": "Software Engineering",
+      "jobsAvailableNumber": 1000
+    },
+    {
+      "id": "2",
+      "categoryLogoImageLink": "../assets/Icons/chip 1.png",
+      "categoryName": "Data Science",
+      "jobsAvailableNumber": 500
+    },
+    {
+      "id": "3",
+      "categoryLogoImageLink": "../assets/Icons/business 1.png",
+      "categoryName": "Marketing",
+      "jobsAvailableNumber": 250
+    },
+    {
+      "id": "4",
+      "categoryLogoImageLink": "../assets/Icons/social-media 1.png",
+      "categoryName": "Product Management",
+      "jobsAvailableNumber": 100
+    }
+  ]
+  

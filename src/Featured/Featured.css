@@ -1,0 +1,33 @@
+.company-image {
+  width: 116.69px;
+  height: 40px;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .semi-parent {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+
+.position-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+}
+.company-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+}

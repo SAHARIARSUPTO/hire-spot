@@ -1,0 +1,62 @@
+.homepage-image {
+  width: 816px;
+  height: 744px;
+}
+.heading-primary-font {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.heading-primaryfont {
+  color: mediumspringgreen;
+  margin-top: 0px;
+}
+.details-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #757575;
+}
+.apply-button{
+    padding: 10px;
+    background-color: mediumspringgreen;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+  }
+.flex{
+    display: flex;
+    gap: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items: center;
+    margin-top: 0px;
+}
+.ctg-text{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.ctg-primaryfont{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.job-container{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  text-align: center;
+}

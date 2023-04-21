@@ -1,0 +1,44 @@
+.flex-parent {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.flex-parent nav a {
+  text-decoration: none;
+  color: mediumspringgreen;
+  margin: 10px;
+  gap: 10px;
+  font-size: 16px;
+}
+.hire-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 44px;
+  color: black;
+}
+.spot-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 44px;
+  color: mediumspringgreen;
+}
+.apply-button a{
+  padding: 10px;
+  background-color: mediumspringgreen;
+  border-radius: 7px;
+  color: black;
+  text-decoration: none;
+}
+
