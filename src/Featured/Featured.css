@@ -3,31 +3,55 @@
   height: 40px;
 }
 .parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .semi-parent {
-    width: 500px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid gray;
-  }
-
-.position-text{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
 }
-.company-text{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-color: #757575;
+
+.semi-parent {
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid mediumspringgreen;
+  border-radius: 15px;
+}
+
+.position-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.company-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+}
+.job-type {
+  border: 3px mediumspringgreen solid;
+  width: 70px;
+  height: 30px;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+  border-radius: 7px;
+  color: mediumspringgreen;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+}
+.details-button{
+  padding: 10px;
+  background-color: mediumspringgreen;
+  border-radius: 7px;
+  color: black;
+  text-decoration: none;
 }

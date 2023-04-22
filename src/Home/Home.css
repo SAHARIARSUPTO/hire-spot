@@ -60,3 +60,27 @@
   justify-content: center;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .heading-primary-font {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .homepage-image {
+    width: 330px;
+    height: 500px;
+  }
+  .flex{
+    display: block;
+  }
+  .job-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Home from '../Home/Home';
 // import myImage from ''
 import './Featured.css';
+import { Link } from 'react-router-dom';
 
 const Featured = () => {
     const [featuredjob, setfeaturedjob] = useState([]);
@@ -19,8 +20,10 @@ const Featured = () => {
                     <img className='company-image' src={job.image}></img>
                     <p className='position-text'>{job.job_position}</p>
                     <p className='company-text'>{job.company_name}</p>
-                    <p>{job.job_type} - {job.job_location}</p>
+                    <p className='job-type'>{job.job_type}</p>
+                    <p>{job.job_location}</p>
                     <p>{job.salary}</p>
+                    <Link className='details-button' to=''>View Details</Link>
                 </div>
             ))}
         </div>

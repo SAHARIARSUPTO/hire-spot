@@ -4,6 +4,7 @@ import myImage from "./Hiring-rafiki.svg";
 import "./Home.css";
 import Job from '../Job Catagory/Job'
 import Featured from "../Featured/Featured";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const jobCatagory = useLoaderData();
@@ -53,9 +54,9 @@ const Home = () => {
         <p className="ctg-primaryfont">Explore thousands of job opportunities with all the information you need. Its your future</p>
         <div className="baba">
           <Featured></Featured>
-          {/* <p>availabe: {featuredJobs.length}</p> */}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
