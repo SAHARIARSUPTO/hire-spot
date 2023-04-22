@@ -48,6 +48,8 @@
     flex-direction: column;
     gap: 20px;
     background-color: gray;
+    position: sticky;
+    top: 0px;
   }
   .apply-button a{
     padding: 10px;

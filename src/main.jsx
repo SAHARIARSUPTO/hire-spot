@@ -8,6 +8,8 @@ import Statistics from "./Statistics/Statistics";
 import Applied from "./Applied Jobs/Applied";
 import Blog from "./Blog/Blog";
 import Featured from "./Featured/Featured";
+import Error from "./Error Page/Error";
+import Software from "./Job Details/Software/Software";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>,
       },
+      {
+        path:"/error",
+        element:<Error></Error>,
+      },
+      {
+        path: "/softwareengineer",
+        element: <Software></Software>,
+      }
     ],
   },
 ]);

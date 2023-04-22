@@ -3,6 +3,7 @@ import Home from '../Home/Home';
 // import myImage from ''
 import './Featured.css';
 import { Link } from 'react-router-dom';
+import Software from '../Job Details/Software/Software';
 
 const Featured = () => {
     const [featuredjob, setfeaturedjob] = useState([]);

@@ -17,7 +17,7 @@ const Header = () => {
                 </nav>
 
                 <div className='apply-button'>
-                    <Link to=''>Start Applying</Link>
+                    <Link to='/error'>Start Applying</Link>
                 </div>
         </div>
     );
