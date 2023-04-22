@@ -9,9 +9,6 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   const jobCatagory = useLoaderData();
 
-  
-
-    
   return (
     <div>
       <div className="flex">
