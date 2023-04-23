@@ -10,6 +10,8 @@ import Blog from "./Blog/Blog";
 import Featured from "./Featured/Featured";
 import Error from "./Error Page/Error";
 import Software from "./Job Details/Software/Software";
+import Product from "./Job Details/Productmanager/Product";
+import Data from "./Job Details/Data Scientist/Data";
 
 const router = createBrowserRouter([
   {
@@ -39,8 +41,16 @@ const router = createBrowserRouter([
         element:<Error></Error>,
       },
       {
-        path: "/softwareengineer",
+        path: "/abc1",
         element: <Software></Software>,
+      },
+      {
+        path: "abc2",
+        element:<Product></Product>,
+      },
+      {
+        path: "abc3",
+        element:<Data></Data>,
       }
     ],
   },

@@ -1,5 +1,6 @@
 [
     {
+      "id": "abc1",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png",
       "job_position": "Software Engineer",
       "company_name": "SpaceX",
@@ -8,6 +9,7 @@
       "salary": "$120,000 - $150,000"
     },
     {
+      "id": "abc2",
       "image": "/assets/Logo/google-1-1 1.png",
       "job_position": "Product Manager",
       "company_name": "Google Inc",
@@ -16,6 +18,7 @@
       "salary": "$130,000 - $160,000"
     },
     {
+      "id": "abc3",
       "image": "/assets/Logo/netflix-4 1.png",
       "job_position": "Data Scientist",
       "company_name": "Netflix",
@@ -24,6 +27,7 @@
       "salary": "$100,000 - $130,000"
     },
     {
+      "id": "abc4",
       "image": "/assets/Logo/tesla-9 1.png",
       "job_position": "UX Designer",
       "company_name": "Tesla",

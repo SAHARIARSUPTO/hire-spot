@@ -4,7 +4,6 @@ import Home from '../Home/Home';
 import './Featured.css';
 import { Link } from 'react-router-dom';
 import Software from '../Job Details/Software/Software';
-
 const Featured = () => {
     const [featuredjob, setfeaturedjob] = useState([]);
 
@@ -13,6 +12,7 @@ const Featured = () => {
             .then(res => res.json())
             .then(data => setfeaturedjob(data));
     }, []);
+
 
     return (
         <div className='parent'>
@@ -24,7 +24,7 @@ const Featured = () => {
                     <p className='job-type'>{job.job_type}</p>
                     <p>{job.job_location}</p>
                     <p>{job.salary}</p>
-                    <Link className='details-button' to=''>View Details</Link>
+                    <Link className='details-button' to={`/${job.id}`}>View Details</Link>
                 </div>
             ))}
         </div>
