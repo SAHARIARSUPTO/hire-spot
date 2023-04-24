@@ -1,0 +1,9 @@
+Featured of this site:
+
+1. Responsive & User Friendly.
+2.Created with React-Vite.
+3. Some data are loaded from JSON.
+4. The job requirements texts are generated from ChatGPT.
+
+
+[problems: The applied job from navbar section will not work, I have been trying for solving that how can I show applied jobs but failed. -_-]
