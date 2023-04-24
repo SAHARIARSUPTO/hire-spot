@@ -1,0 +1,55 @@
+.font-bold {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  font: bold;
+}
+.header-font {
+  text-align: center;
+  color: gray;
+}
+.ui-parent {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 100px;
+  justify-content: center;
+}
+.detail-card {
+  width: 700px;
+  height: 300px;
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  font-weight: 800;
+  color: white;
+}
+.job-details-text{
+    font-size: 20px;
+}
+.apply-now-button{
+    background-color: mediumspringgreen;
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    
+    .ui-parent{
+        margin: 10px;
+        display: block;
+    }
+    .detail-card {
+        width: 200px;
+        height: 280px;
+        background-color: black;
+        padding: 40px;
+        border-radius: 10px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+      }
+    }
+    

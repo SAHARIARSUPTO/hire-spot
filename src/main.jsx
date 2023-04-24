@@ -12,6 +12,7 @@ import Error from "./Error Page/Error";
 import Software from "./Job Details/Software/Software";
 import Product from "./Job Details/Productmanager/Product";
 import Data from "./Job Details/Data Scientist/Data";
+import Uidesigner from "./Job Details/UI/Uidesigner";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,6 @@ const router = createBrowserRouter([
         path: "/home",
         element: <Home></Home>,
         loader: () => fetch('jobcatagory.json'),
-        // loader: ()=> fetch('featuredjob.json'),
       },
       {
         path: "/statistics",
@@ -45,12 +45,16 @@ const router = createBrowserRouter([
         element: <Software></Software>,
       },
       {
-        path: "abc2",
+        path: "/abc2",
         element:<Product></Product>,
       },
       {
-        path: "abc3",
+        path: "/abc3",
         element:<Data></Data>,
+      },
+      {
+        path:"/abc4",
+        element: <Uidesigner></Uidesigner>,
       }
     ],
   },

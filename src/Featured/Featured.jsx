@@ -13,7 +13,6 @@ const Featured = () => {
             .then(data => setfeaturedjob(data));
     }, []);
 
-
     return (
         <div className='parent'>
             {featuredjob.map((job, index) => (
