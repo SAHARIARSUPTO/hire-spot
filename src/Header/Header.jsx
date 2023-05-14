@@ -14,6 +14,7 @@ const Header = () => {
                     <Link to='/statistics'>Statistics</Link>
                     <Link to='/appliedjobs'>Applied Jobs</Link>
                     <Link to='/blog'>Blog</Link>
+                    <Link to='/login'>Log In</Link>
                 </nav>
 
                 <div className='apply-button'>

@@ -13,6 +13,7 @@ import Software from "./Job Details/Software/Software";
 import Product from "./Job Details/Productmanager/Product";
 import Data from "./Job Details/Data Scientist/Data";
 import Uidesigner from "./Job Details/UI/Uidesigner";
+import Login from "./Log in/Login";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path:"/abc4",
         element: <Uidesigner></Uidesigner>,
+      },
+      {
+        path:"/login",
+        element:<Login></Login>,
       }
     ],
   },
